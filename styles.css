@@ -137,10 +137,15 @@ header nav ul li a{
   
 }
 
+/*
+
 .principal_container a input:hover{
     transform: translate(0px,5px);
     transition: all 1s;
 }
+
+*/
+
 
 /**********************************>>>>>SECTION CURSOS<<<<<<<******************************/
 .cursos_container {
