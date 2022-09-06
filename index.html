@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/logo-favi.ico">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<link rel="stylesheet" href="styles.css">
     <title>Inicio</title>
 </head>
@@ -46,11 +47,11 @@
 
 	<!-- 1RA SECCION CABECERA------------ -->
 	<section class="principal">
-			<img src="./images/SeccionPrincipal.jpg" alt="Imagen principal">
+			<img  data-aos="fade-right" data-aos-duration="2000" src="./images/SeccionPrincipal.jpg" alt="Imagen principal">
 			<div class="principal_container">
 				<h1>¿Queres Asegurar tu futuro?</h1>
 				<h3>Aprende las habilidades del futuro</h3>
-				<a href="#cursos"><input type="button" value ="Ver cursos"/></a>
+				<a data-aos="fade-up" data-aos-duration="2000" href="#cursos"><input type="button" value ="Ver cursos"/></a>
 			</div>		
 	</section>
 
@@ -60,27 +61,27 @@
 	<section id="cursos">
 	<div class ="cursos_container">
 		<div class="cursos_individual">
-			<h1>PROGRAMACION</h1>
-			<p>La programación es el proceso de creación de programas informáticos. Esta definición se puede interpretar de la siguiente manera. La programación no es más que una explicación a la 
+			<h1 data-aos="fade-down-right" data-aos-duration="2000">PROGRAMACION</h1>
+			<p data-aos="fade-right"data-aos-offset="300" data-aos-easing="ease-in-sine">La programación es el proceso de creación de programas informáticos. Esta definición se puede interpretar de la siguiente manera. La programación no es más que una explicación a la 
 			computadora de qué, en qué forma y cómo llegar al usuario. En otras palabras, es una especie de arte de traducir los deseos de una persona al lenguaje de la máquina.</p>
-			<img src="./images/programar.jpg">
-			<a href="./pages/cursos.html"><input type="button" value ="Saber Mas"/></a>
+			<img data-aos="zoom-in" data-aos-duration="2000"  src="./images/programar.jpg">
+			<a data-aos="flip-left" data-aos-duration="2000" href="./pages/cursos.html"><input type="button" value ="Saber Mas"/></a>
 		</div>
 		
 		<div class="cursos_individual">
-			<h1>DISEÑO GRAFICO</h1>
-			<p>El diseño gráfico es la profesión y disciplina académica cuya actividad consiste en proyectar comunicaciones visuales destinadas a transmitir mensajes específicos a grupos 
+			<h1 data-aos="fade-up"data-aos-anchor-placement="bottom-center" data-aos-duration="2000">DISEÑO GRAFICO</h1>
+			<p data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="2000">El diseño gráfico es la profesión y disciplina académica cuya actividad consiste en proyectar comunicaciones visuales destinadas a transmitir mensajes específicos a grupos 
 			sociales con objetivos determinados. El diseño se basa en el principio de «la forma sigue a una función específica».2​</p>
-			<img src="./images/diseño.jfif" alt="foto programando">
-			<a href="./pages/cursos.html"><input type="button" value ="Saber Mas"/></a>
+			<img data-aos="zoom-in" data-aos-duration="2000" src="./images/diseño.jfif" alt="foto programando">
+			<a data-aos="flip-left" data-aos-duration="2000" href="./pages/cursos.html"><input type="button" value ="Saber Mas"/></a>
 		</div>
 		
 		<div class="cursos_individual">
-			<h1>OFFICE</h1>
-			<p>Microsoft Office es una de las más populares, versátiles y completas suites de aplicaciones de oficina del mundo, a tal punto 
+			<h1 data-aos="fade-down-left" data-aos-duration="2000">OFFICE</h1>
+			<p data-aos="fade-left" data-aos-duration="2000">Microsoft Office es una de las más populares, versátiles y completas suites de aplicaciones de oficina del mundo, a tal punto 
 			es su popularización que se estima que más del 80% de las empresas utilizan los servicios de este software.​</p>
-			<img src="./images/office.jpg">
-			<a href="./pages/cursos.html"><input type="button" value ="Saber Mas"/></a>
+			<img  data-aos="zoom-in" data-aos-duration="2000" src="./images/office.jpg">
+			<a data-aos="flip-left" data-aos-duration="1000" href="./pages/cursos.html"><input type="button" value ="Saber Mas"/></a>
 		</div>
 	</div>
 	</section>
@@ -100,9 +101,9 @@
 	</div>	
 	</footer>
 
-
-
-
-    
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	  </script>    
 </body>
 </html>
