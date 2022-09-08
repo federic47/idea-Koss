@@ -5,6 +5,10 @@
     padding: 0;
 }
 
+img{
+    max-width: 100%;
+}
+
 header {
     display: flex;
     justify-content: space-around;
@@ -39,34 +43,6 @@ header nav ul li a{
         
 }
 
- .banner {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(198, 38, 243);
-    width: auto;
-    height: auto; 
- }
-
- .banner_caja{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(198, 38, 243);
-    width: 50%;
-    height: 50px;
-    color: white;
- }
-
- .banner_caja a input{
-    color: white;
-    font-size: 15px;
-    background-color: #36c010;
-    border: none;
-    border-radius: 4px;
-    padding: 5px;
- }
-
  .parallax{
     background-image: url(./images/parallax.jpg);
     height: 600px;
@@ -78,6 +54,13 @@ header nav ul li a{
     align-items: center;
  }
 
+
+ .col-md-6{
+    border: 2px solid white;
+    
+ }
+
+ /*
  .texto_parallax{
     display: flex;
     flex-direction: column;
@@ -100,6 +83,8 @@ header nav ul li a{
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
  }
+
+ */
 
 
 /*******************************>>>>>SECTION GENERAL<<<<<<<*************************************/
