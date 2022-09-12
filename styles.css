@@ -44,6 +44,11 @@ header img{
     align-items: center;
  }
 
+ .parallax a{
+    text-decoration: none;
+    color: black;
+ }
+
 
  .texto{
     display: flex;
@@ -71,12 +76,19 @@ header img{
     
  }
 
+ .btn-info:hover{
+    background: rgb(82,241,0);
+    background: linear-gradient(90deg, rgba(82,241,0,1) 0%, rgba(45,162,2,1) 100%);
+ }
+
  .subtitulo{
     color: white;
     background: rgb(212,216,221);
     background: linear-gradient(90deg, rgba(212,216,221,1) 0%, rgba(37,37,37,0.9671218829328606) 0%);
     
  }
+
+
 
 
 .antes{
@@ -86,6 +98,7 @@ header img{
     height: 60px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    
 }
 
 .principal{
@@ -113,9 +126,32 @@ header img{
     
  }
 
- .tarjetas img {
-   max-width: 100%;
+ #cursos{
+    height: 550px;
  }
+
+.row-cursos{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.btn-primary{
+    background: rgb(0,102,241);
+    background: linear-gradient(90deg, rgba(0,102,241,1) 0%, rgba(19,53,167,1) 95%);
+    border: none;
+}
+
+.btn-primary:hover{
+    background: rgb(82,241,0);
+    background: linear-gradient(90deg, rgba(82,241,0,1) 0%, rgba(45,162,2,1) 100%);
+}
+
+.card {
+    text-align: center;
+}
+
+
 
 
 /**********************************>>>>>SECTION CURSOS<<<<<<<******************************/
@@ -365,13 +401,16 @@ header img{
 /***************************************>>>>>FOOTER<<<<<<<***********************************************************/
 .footer_general {
     display: flex;
-    background-color: #464645;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     color: white;
     height: 70px;
     background: rgb(27,98,172);
     background: linear-gradient(90deg, rgba(27,98,172,1) 2%, rgba(110,76,203,0.9363095580028886) 100%, rgba(250,250,252,1) 100%);
+}
+
+.pie{
+    text-align: center;
 }
 
 
@@ -422,47 +461,7 @@ header img{
     }
 
 
-    /*SECCION PRINCIPAL*/
-
-    /*
-    .principal{
-        flex-direction: column;
-        align-content: center;
-        align-items: center;
-
-    }
-
-    .principal img{
-        width: 60%;
-        height: 60%;
-    }
-
-
-    .principal_container a input{
-        font-size: 20px;
-    }
-
-
-
-    */
-
-    .cursos_container{
-        flex-direction: column;
-        height: 2000px;
-        justify-content: center;
-        
-    }
-
-    .cursos_individual{
-        height: 800px;
-        
-    }
-
-    .footer_general{
-        flex-direction: column;
-        justify-content: stretch;
-        
-    }
+    
 
     /*ZONA DE LOS CURSOS DETALLE*/
     .cursos_detalle{
