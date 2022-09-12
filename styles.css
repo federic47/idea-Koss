@@ -104,6 +104,7 @@ header img{
 .principal{
     background: rgb(212,216,221);
     background: linear-gradient(90deg, rgba(212,216,221,1) 0%, rgba(108,99,99,0.9783263647255778) 100%);
+    
 }
 
 .container{
@@ -348,6 +349,10 @@ header img{
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
+ }
+
+ .principal_caja p{
+    text-align: justify;
  }
 
 
