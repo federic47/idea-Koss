@@ -200,6 +200,10 @@ header img{
 
 /*************************************>>>>>SECTION PRINCIPAL CURSO DETALLE<<<<<<<******************************/
 
+
+
+/*
+
 .cursos_detalle{
     display:grid;
     grid-template-columns: repeat(3,1fr);
@@ -406,17 +410,17 @@ header img{
 /***************************************>>>>>FOOTER<<<<<<<***********************************************************/
 .footer_general {
     display: flex;
+    text-align: center;
     justify-content: center;
     align-items: center;
     color: white;
     height: 70px;
     background: rgb(27,98,172);
     background: linear-gradient(90deg, rgba(27,98,172,1) 2%, rgba(110,76,203,0.9363095580028886) 100%, rgba(250,250,252,1) 100%);
+    
 }
 
-.pie{
-    text-align: center;
-}
+
 
 
 /***************Media Queries*****************************************/
@@ -469,10 +473,7 @@ header img{
     
 
     /*ZONA DE LOS CURSOS DETALLE*/
-    .cursos_detalle{
-        grid-template-columns: repeat(1,1fr);
-        grid-template-rows: repeat(9,1fr);
-    }
+   
     
     
 
@@ -555,4 +556,11 @@ header img{
         text-align: justify;
     }
 
+
+    .footer_general{
+        height: 120px;
+        text-align: center;
+        margin-top: 2300px;
+    }
+    
 }
