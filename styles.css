@@ -6,7 +6,7 @@
 
 header{
     background-color: #3e3a3a;
-    height: 150px;
+    
 }
 
 header img{
@@ -32,6 +32,7 @@ header img{
 .nav-link-color:hover{
     color: white;
 }
+
 
  .parallax{
     background-image: url(./images/parallax.jpg);
@@ -353,8 +354,36 @@ header img{
 
 
 
+/**********************************Seccion Carousel**********************************************************************/
 
-/***************Media Queries*****************************************/
+.carousel-1{
+    height: 400px;
+    background-image: url(./images/banner-programacion.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.carousel-2{
+    height: 400px;
+    background-image: url(./images/diseño-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.carousel-3{
+    height: 400px;
+    background-image: url(./images/banner-office.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+
+
+
+
+/***************Media Queries*********************************************************************************************/
 @media only screen and (max-width: 768px){
 
 }
@@ -363,7 +392,6 @@ header img{
     /*HEADER*/
 
     
-
     header img{
         margin-left: 200px;
         
