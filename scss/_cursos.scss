@@ -1,0 +1,38 @@
+.cursos{
+    height: 480px;
+    
+}
+
+
+ .row-cursos{
+    display: flex;
+    justify-content: space-between;
+    
+ }
+
+ .tarjetas {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 480px;
+
+    // img{
+    //     width: 320px;
+    //     height: 300px;
+    //     border-radius: 8px;
+    // }
+    
+}
+
+
+ 
+ .btn-primary{
+    background: rgb(0,102,241);
+    background: linear-gradient(90deg, rgba(0,102,241,1) 0%, rgba(19,53,167,1) 95%);
+    border: none;
+    &:hover{
+        background: rgb(82,241,0);
+        background: linear-gradient(90deg, rgba(82,241,0,1) 0%, rgba(45,162,2,1) 100%);
+    }
+}
+

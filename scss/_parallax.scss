@@ -1,0 +1,49 @@
+$negro :black;
+$blanco : white;
+
+.parallax{
+    background-image: url(../images/parallax.jpg);
+    height: 450px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+    a{
+        text-decoration: none;
+        color: $negro;
+    }
+
+ }
+
+ .texto{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 430px;
+
+    p{
+        font-size: 20px;
+        color: $blanco;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+     
+ }
+
+ .texto_parallax_1 {
+    color: #00f059;
+    
+ }
+
+ .texto_parallax_2 {
+    color: $blanco;
+ }
+
+ .btn-info:hover{
+    background: rgb(82,241,0);
+    background: linear-gradient(90deg, rgba(82,241,0,1) 0%, rgba(45,162,2,1) 100%);
+ }

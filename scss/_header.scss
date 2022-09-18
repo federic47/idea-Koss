@@ -1,0 +1,30 @@
+$color_header:#3e3a3a;
+$hover : white;
+
+header{
+    background-color:$color_header;
+    
+    img{
+        margin-left: 100px;
+    }
+}
+
+.navbar-collapse{
+    justify-content: flex-end;
+    font-size: 22px;  
+
+    ul{
+        margin-right: 150px;
+    
+    }
+}
+
+.nav-link-color {
+    color:#4bf6fb;
+    text-decoration: none;
+    padding: 25px;
+    &:hover {
+       color: $hover;
+    } 
+}
+

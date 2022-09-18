@@ -1,0 +1,126 @@
+@media only screen and (max-width: 768px){
+
+}
+
+@media only screen and (max-width: 576px){
+    
+
+    .navbar-collapse{
+        z-index: 100;
+    }
+
+    .navbar-light .navbar-toggler{
+        border: none;
+        margin-right: 40px;
+    }
+
+    .row-cursos{
+        flex-direction: column;
+    
+     }
+
+    
+    .parallax{
+        height: 730px;
+    }
+
+    .texto_imagen img{
+        height: 300px;
+    }
+
+    .texto{
+        margin-left: 20px;
+        height: 400px;
+    }
+
+    .cursos{
+        height: 3200px;
+        
+    }
+
+    .tarjetas{
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 800px;
+        
+    }
+
+    .card{
+        height: 800px;
+    }
+
+    .row-footer{
+        flex-direction: column;
+        height: 120px;
+        justify-content: stretch;
+    }
+
+    .parallax_formulario{
+        height: 900px;
+        flex-direction: column;
+        justify-content: space-around;
+
+    
+    }
+
+    .texto_parallax_formulario {
+        height: 250px;
+        font-size: 20px;
+        text-align: justify;
+        color: white;
+        width: 500px;
+        margin-right: 50px;
+        margin-top: 50px;
+
+    }
+
+    .texto_parallax_formulario p {
+        padding: 5px;
+        font-size: 25px;
+
+    }
+
+    .imagen_formulario{
+        display: none;
+    }
+
+    .formulario_detalle{
+        margin-right: 100px;
+        width: 400px;
+    }
+
+    .formulario_detalle label{
+        font-size: 20px;
+    }
+    
+    .formulario_detalle div input{
+        font-size: 20px;
+    }
+
+
+
+   
+    .sobre {
+        flex-direction: column;
+    }
+
+    .sobre_1 img{
+        width: 600px;
+        height: 400px;
+    }
+    
+
+    .sobre_2{
+        height: 700px;
+
+        div{
+            height: 250px;
+            text-align: justify;
+
+        }
+        
+    
+    }
+
+
+} 
