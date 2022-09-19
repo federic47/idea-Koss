@@ -8,15 +8,16 @@ header {
   background-color: #3e3a3a;
 }
 header img {
-  margin-left: 100px;
+  margin-left: 70px;
 }
 
 .navbar-collapse {
   justify-content: flex-end;
-  font-size: 22px;
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .navbar-collapse ul {
-  margin-right: 150px;
+  margin-right: 50px;
 }
 
 .nav-link-color {
@@ -26,6 +27,11 @@ header img {
 }
 .nav-link-color:hover {
   color: white;
+}
+
+.btn-info {
+  width: 300px;
+  margin-left: 170px;
 }
 
 .parallax {
@@ -86,6 +92,7 @@ header img {
 }
 
 .principal {
+  padding: 20px;
   background: rgb(212, 216, 221);
   background: linear-gradient(90deg, rgb(212, 216, 221) 0%, rgba(108, 99, 99, 0.9783263647) 100%);
 }
@@ -101,7 +108,7 @@ header img {
 }
 
 .cursos {
-  height: 480px;
+  height: 650px;
 }
 
 .row-cursos {
@@ -111,9 +118,16 @@ header img {
 
 .tarjetas {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: center;
-  height: 480px;
+  height: 650px;
+}
+.tarjetas img {
+  border-radius: 10px;
+}
+.tarjetas p {
+  text-align: justify;
+  font-size: 15px;
 }
 
 .btn-primary {
@@ -142,15 +156,41 @@ header img {
 }
 
 .carousel-1 {
-  height: 400px;
+  height: 450px;
   background-image: url(../images/banner-programacion.png);
   background-position: center;
   background-repeat: no-repeat;
   object-fit: cover;
 }
 
-.carousel-2 {
+.carousel-items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-family: cursive;
+  padding-top: 25px;
   height: 400px;
+  text-align: center;
+}
+.carousel-items p {
+  color: white;
+  font-size: 25px;
+}
+
+.btn-success {
+  width: 400px;
+  margin-left: 400px;
+}
+.btn-success:hover {
+  background-color: red;
+}
+.btn-success a {
+  text-decoration: none;
+  color: white;
+}
+
+.carousel-2 {
+  height: 450px;
   background-image: url(../images/diseño-banner.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -158,7 +198,7 @@ header img {
 }
 
 .carousel-3 {
-  height: 400px;
+  height: 450px;
   background-image: url(../images/banner-office.jpg);
   background-position: center;
   background-repeat: no-repeat;
@@ -176,11 +216,6 @@ header img {
   align-items: center;
 }
 
-.imagen_formulario:hover {
-  transform: translate(30px, 0px);
-  transition: all 2s;
-}
-
 .texto_parallax_formulario {
   display: flex;
   flex-direction: column;
@@ -188,9 +223,9 @@ header img {
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 20px;
-  width: 600px;
-  height: 400px;
-  margin-left: 10px;
+  width: 500px;
+  height: 500px;
+  padding: 25px;
 }
 .texto_parallax_formulario p {
   color: white;
@@ -198,74 +233,126 @@ header img {
   font-size: 30px;
 }
 
-.principal_caja p {
-  text-align: justify;
-}
-
-.container_formulario {
-  margin-left: 100px;
-  opacity: 0.8;
-}
-.container_formulario:hover {
-  transform: translate(0px, -5px);
-  transition: all 1s;
-}
-
-.formulario_detalle {
+.formulario-parallax {
+  border-radius: 8px;
+  opacity: 80%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  font-size: 30px;
+  justify-content: space-evenly;
   color: white;
-  align-items: center;
-}
-.formulario_detalle label {
-  font-size: 30px;
-}
-.formulario_detalle div input {
-  font-size: 20px;
-}
-.formulario_detalle form {
-  border-radius: 20px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 50px;
+  text-align: center;
   background: rgb(48, 69, 91);
   background: linear-gradient(90deg, rgb(48, 69, 91) 0%, rgb(9, 9, 121) 30%, rgb(0, 147, 255) 100%);
+  font-family: monospace;
 }
-
-.formulario_individual select {
+.formulario-parallax label {
   font-size: 20px;
 }
 
-.sobre {
-  display: flex;
+.btn-light {
+  text-decoration: none;
+  background-color: rgb(10, 244, 127);
+}
+.btn-light a {
+  color: black;
+  text-transform: uppercase;
 }
 
-.sobre_1 {
-  display: flex;
-  flex-direction: column;
-}
-.sobre_1 img {
-  width: 700px;
-  height: 500px;
+.descuento {
+  height: 620px;
+  background: rgb(82, 241, 0);
+  background: linear-gradient(90deg, rgb(82, 241, 0) 0%, rgb(47, 53, 110) 0%, rgb(30, 32, 36) 100%);
 }
 
-.sobre_2 {
+.descuento1 {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  background: rgb(48, 69, 91);
-  background: linear-gradient(90deg, rgb(48, 69, 91) 0%, rgb(205, 207, 209) 0%, rgb(250, 250, 252) 100%);
+  justify-content: space-evenly;
+  text-align: center;
+  color: #00f059;
 }
-.sobre_2 div {
+.descuento1 p {
+  color: white;
+  text-align: justify;
+  padding: 15px;
+}
+
+.descuento2 {
+  display: flex;
+  height: 600px;
+  width: 550px;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 25px;
+  text-align: center;
+  font-family: monospace;
+  background-color: #3e3a3a;
+  color: white;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+.descuento2 textarea {
+  height: 200px;
+}
+.descuento2 input {
   height: 100px;
-  padding: 20px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 15px;
+}
+
+.btn-warning {
+  margin-top: 20px;
+  border: none;
+}
+.btn-warning:hover {
+  background-color: green;
+  color: white;
+}
+.btn-warning a {
+  text-decoration: none;
+  color: black;
+}
+
+.somos {
+  height: 800px;
+  background: rgb(82, 241, 0);
+  background: linear-gradient(90deg, rgb(82, 241, 0) 0%, rgb(47, 53, 110) 0%, rgb(30, 32, 36) 100%);
+}
+
+.somos1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 400px;
+}
+.somos1 h2 {
+  color: #00f059;
+  text-align: center;
+}
+.somos1 p {
+  color: white;
   text-align: justify;
 }
-.sobre_2 h1 {
-  text-align: center;
+
+.somos2 {
+  background-image: url(../images/somos2.png);
+  border: none;
+  height: 400px;
+}
+
+.somos3 {
+  background-image: url(../images/somos3.png);
+  height: 400px;
+}
+
+.somos4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 400px;
+}
+.somos4 p {
+  color: white;
+  text-align: justify;
+  padding: 25px;
 }
 
 @media only screen and (max-width: 576px) {
@@ -275,6 +362,26 @@ header img {
   .navbar-light .navbar-toggler {
     border: none;
     margin-right: 40px;
+  }
+  .btn-info {
+    margin-left: 100px;
+  }
+  .carousel-items p {
+    font-size: 18px;
+  }
+  .descuento {
+    height: 1250px;
+  }
+  .descuento1 {
+    margin-top: 30px;
+  }
+  .somos {
+    height: 1500px;
+  }
+  .formulario-parallax {
+    margin-top: 25px;
+    border-radius: 8px;
+    height: 500px;
   }
   .row-cursos {
     flex-direction: column;
@@ -313,7 +420,7 @@ header img {
   .texto_parallax_formulario {
     height: 250px;
     font-size: 20px;
-    text-align: justify;
+    text-align: center;
     color: white;
     width: 500px;
     margin-right: 50px;
@@ -322,9 +429,6 @@ header img {
   .texto_parallax_formulario p {
     padding: 5px;
     font-size: 25px;
-  }
-  .imagen_formulario {
-    display: none;
   }
   .formulario_detalle {
     margin-right: 100px;
@@ -336,19 +440,8 @@ header img {
   .formulario_detalle div input {
     font-size: 20px;
   }
-  .sobre {
-    flex-direction: column;
-  }
-  .sobre_1 img {
-    width: 600px;
-    height: 400px;
-  }
-  .sobre_2 {
-    height: 700px;
-  }
-  .sobre_2 div {
-    height: 250px;
-    text-align: justify;
+  .btn-success {
+    margin-left: 80px;
   }
 }
 

@@ -1,5 +1,5 @@
 .cursos{
-    height: 480px;
+    height: 650px;
     
 }
 
@@ -12,15 +12,20 @@
 
  .tarjetas {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     text-align: center;
-    height: 480px;
+    height: 650px;
 
-    // img{
-    //     width: 320px;
-    //     height: 300px;
-    //     border-radius: 8px;
-    // }
+     img{
+        border-radius: 10px;
+    }
+
+    p{
+        text-align: justify;
+        font-size: 15px;
+    }
+
+
     
 }
 

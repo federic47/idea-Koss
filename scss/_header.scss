@@ -5,16 +5,17 @@ header{
     background-color:$color_header;
     
     img{
-        margin-left: 100px;
+        margin-left: 70px;
     }
 }
 
 .navbar-collapse{
     justify-content: flex-end;
-    font-size: 22px;  
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
 
     ul{
-        margin-right: 150px;
+        margin-right: 50px;
     
     }
 }
@@ -26,5 +27,10 @@ header{
     &:hover {
        color: $hover;
     } 
+}
+
+.btn-info{
+    width: 300px;
+    margin-left: 170px;
 }
 

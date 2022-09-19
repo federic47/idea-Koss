@@ -1,22 +1,57 @@
 .carousel-1{
-    height: 400px;
+    height: 450px;
     background-image: url(../images/banner-programacion.png);
     background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
+   
 }
-.carousel-2{
+
+.carousel-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: cursive;
+    padding-top: 25px;
     height: 400px;
+    text-align: center;
+
+    p{
+        color: white;
+        font-size: 25px;
+    }
+}
+
+.btn-success{
+    
+    width: 400px;
+    margin-left: 400px;
+    &:hover{
+    background-color:red ;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+
+.carousel-2{
+    height: 450px;
     background-image: url(../images/diseño-banner.jpg);
     background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
+    
 }
 
+
+
 .carousel-3{
-    height: 400px;
+    height: 450px;
     background-image: url(../images/banner-office.jpg);
     background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
+   
 }
