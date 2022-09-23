@@ -13,8 +13,8 @@ header img {
 
 .navbar-collapse {
   justify-content: flex-end;
-  font-size: 18px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-family: "Gill Sans MT";
 }
 .navbar-collapse ul {
   margin-right: 50px;
@@ -103,8 +103,8 @@ header img {
   text-align: center;
 }
 .principal_caja img {
-  height: 200px;
   width: 200px;
+  height: 200px;
 }
 
 .cursos {
@@ -155,12 +155,20 @@ header img {
   background: linear-gradient(90deg, rgb(27, 98, 172) 2%, rgba(110, 76, 203, 0.936309558) 100%, rgb(250, 250, 252) 100%);
 }
 
-.carousel-1 {
+.carousel-1, .carousel-3, .carousel-2 {
   height: 450px;
   background-image: url(../images/banner-programacion.png);
   background-position: center;
   background-repeat: no-repeat;
   object-fit: cover;
+}
+
+.carousel-2 {
+  background-image: url(../images/diseño-banner.jpg);
+}
+
+.carousel-3 {
+  background-image: url(../images/banner-office.jpg);
 }
 
 .carousel-items {
@@ -187,22 +195,6 @@ header img {
 .btn-success a {
   text-decoration: none;
   color: white;
-}
-
-.carousel-2 {
-  height: 450px;
-  background-image: url(../images/diseño-banner.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  object-fit: cover;
-}
-
-.carousel-3 {
-  height: 450px;
-  background-image: url(../images/banner-office.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  object-fit: cover;
 }
 
 .parallax_formulario {

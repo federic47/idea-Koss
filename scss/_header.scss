@@ -1,8 +1,13 @@
-$color_header:#3e3a3a;
-$hover : white;
+$header:(
+    fondo: #3e3a3a,
+    hover: white,
+    letra: 'Gill Sans MT',
+    tamaño: 20px,
+    navColor: #4bf6fb 
+);
 
 header{
-    background-color:$color_header;
+    background-color:map-get($header , fondo );
     
     img{
         margin-left: 70px;
@@ -11,8 +16,8 @@ header{
 
 .navbar-collapse{
     justify-content: flex-end;
-    font-size: 18px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+    font-size: map-get($header,tamaño);
+    font-family: map-get($header, letra); 
 
     ul{
         margin-right: 50px;
@@ -21,11 +26,11 @@ header{
 }
 
 .nav-link-color {
-    color:#4bf6fb;
+    color:map-get($header, navColor );
     text-decoration: none;
     padding: 25px;
     &:hover {
-       color: $hover;
+       color: map-get($header, hover );
     } 
 }
 

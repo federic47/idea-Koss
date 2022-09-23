@@ -7,6 +7,20 @@
    
 }
 
+
+.carousel-2{
+    @extend.carousel-1;
+    background-image: url(../images/diseño-banner.jpg);
+        
+}
+
+.carousel-3{
+    @extend.carousel-1;
+    background-image: url(../images/banner-office.jpg);
+   
+}
+
+
 .carousel-items{
     display: flex;
     flex-direction: column;
@@ -35,23 +49,3 @@
     }
 }
 
-
-.carousel-2{
-    height: 450px;
-    background-image: url(../images/diseño-banner.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    
-}
-
-
-
-.carousel-3{
-    height: 450px;
-    background-image: url(../images/banner-office.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    object-fit: cover;
-   
-}
