@@ -8,6 +8,8 @@ $header:(
 
 header{
     background-color:map-get($header , fondo );
+    position: sticky;
+    top: 0;
     
     img{
         margin-left: 70px;

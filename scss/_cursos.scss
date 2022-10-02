@@ -13,9 +13,10 @@
 
  .tarjetas {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     text-align: center;
     height: 650px;
+    
 
      img{
         border-radius: 10px;
@@ -30,6 +31,11 @@
     
 }
 
+.card {
+    border: solid 2px red;
+    
+}
+
 
  
  .btn-primary{
@@ -41,5 +47,6 @@
         background: linear-gradient(90deg, rgba(82,241,0,1) 0%, rgba(45,162,2,1) 100%);
     }
 }
+
 
 

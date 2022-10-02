@@ -6,6 +6,8 @@
 
 header {
   background-color: #3e3a3a;
+  position: sticky;
+  top: 0;
 }
 header img {
   margin-left: 70px;
@@ -118,7 +120,7 @@ header img {
 
 .tarjetas {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   text-align: center;
   height: 650px;
 }
@@ -128,6 +130,10 @@ header img {
 .tarjetas p {
   text-align: justify;
   font-size: 15px;
+}
+
+.card {
+  border: solid 2px red;
 }
 
 .btn-primary {
@@ -175,7 +181,6 @@ header img {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  font-family: cursive;
   padding-top: 25px;
   height: 400px;
   text-align: center;
@@ -199,7 +204,7 @@ header img {
 
 .parallax_formulario {
   background-image: url(../images/parallax_formulario.jpg);
-  height: 600px;
+  height: 85vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -251,13 +256,14 @@ header img {
 }
 
 .descuento {
-  height: 620px;
+  height: 100vh;
   background: rgb(82, 241, 0);
   background: linear-gradient(90deg, rgb(82, 241, 0) 0%, rgb(47, 53, 110) 0%, rgb(30, 32, 36) 100%);
 }
 
 .descuento1 {
   display: flex;
+  margin-top: 40px;
   flex-direction: column;
   justify-content: space-evenly;
   text-align: center;
@@ -270,6 +276,7 @@ header img {
 }
 
 .descuento2 {
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -278,7 +285,6 @@ header img {
   font-family: monospace;
   background-color: #3e3a3a;
   color: white;
-  margin-top: 10px;
   border-radius: 8px;
 }
 .descuento2 textarea {
@@ -349,8 +355,7 @@ header img {
   .navbar-collapse {
     z-index: 100;
   }
-  .navbar-light .navbar-toggler {
-    border: none;
+  .navbar-toggler {
     margin-right: 40px;
   }
   .btn-info {
