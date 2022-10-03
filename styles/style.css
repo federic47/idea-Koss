@@ -5,6 +5,7 @@
 }
 
 header {
+  z-index: 100;
   background-color: #3e3a3a;
   position: sticky;
   top: 0;
@@ -113,27 +114,8 @@ header img {
   height: 650px;
 }
 
-.row-cursos {
-  display: flex;
-  justify-content: space-between;
-}
-
-.tarjetas {
-  display: flex;
-  justify-content: space-evenly;
-  text-align: center;
-  height: 650px;
-}
-.tarjetas img {
-  border-radius: 10px;
-}
-.tarjetas p {
-  text-align: justify;
-  font-size: 15px;
-}
-
-.card {
-  border: solid 2px red;
+.container {
+  max-width: 100%;
 }
 
 .btn-primary {
@@ -144,6 +126,13 @@ header img {
 .btn-primary:hover {
   background: rgb(82, 241, 0);
   background: linear-gradient(90deg, rgb(82, 241, 0) 0%, rgb(45, 162, 2) 100%);
+}
+
+.card-body {
+  text-align: center;
+}
+.card-body p {
+  text-align: justify;
 }
 
 .container-footer {
@@ -378,7 +367,7 @@ header img {
     border-radius: 8px;
     height: 500px;
   }
-  .row-cursos {
+  .row {
     flex-direction: column;
   }
   .parallax {
@@ -393,6 +382,7 @@ header img {
   }
   .cursos {
     height: 3200px;
+    max-width: 100%;
   }
   .tarjetas {
     flex-direction: column;

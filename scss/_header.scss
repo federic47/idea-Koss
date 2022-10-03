@@ -7,6 +7,7 @@ $header:(
 );
 
 header{
+    z-index: 100;
     background-color:map-get($header , fondo );
     position: sticky;
     top: 0;
