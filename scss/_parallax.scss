@@ -1,5 +1,5 @@
 $negro :black;
-$blanco : white;
+$blanco : rgb(49, 238, 238);
 
 .parallax{
     background-image: url(../images/parallax.jpg);
@@ -28,22 +28,28 @@ $blanco : white;
 
     p{
         font-size: 20px;
-        color: $blanco;
+        color: white;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
      
  }
 
  .texto_parallax_1 {
-    color: #00f059;
+    color: #e9f1f1;
+    font-size: 45px;
     
  }
 
  .texto_parallax_2 {
-    color: $blanco;
+    color: #4bf6fb;
+    font-size: 40px;
  }
 
- .btn-info:hover{
-    background: rgb(82,241,0);
-    background: linear-gradient(90deg, rgba(82,241,0,1) 0%, rgba(45,162,2,1) 100%);
- }
+ .btn-info{
+   margin-left: 150px;
+   &:hover{
+      background: rgb(249, 249, 249);
+   }
+}
+
+ 

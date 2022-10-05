@@ -1,9 +1,120 @@
+@media only screen and (max-width: 1200px){
+
+        .cursos{
+            height: 670px;
+            
+        }
+
+        .card{
+            height: 650px;
+            
+        }
+
+        .tarjetas{
+            p{
+                padding-right: 8px;
+            }
+        }
+
+      
+
+}
+
+
+@media only screen and (max-width: 992px){
+    
+    .navbar-collapse{
+        font-size: 17px;
+
+    }
+
+    .texto{
+
+        p{
+            text-align: justify;
+        }
+    }
+
+    .texto_parallax_1{
+        font-size: 30px;
+    }
+
+    .texto_parallax_2{
+        font-size: 30px;
+    }
+
+    .btn-info{
+        margin-left: 80px;
+        
+    }
+
+    .principal{
+        height: 600px;
+
+       
+    }
+
+    
+
+
+
+}
+
+
 @media only screen and (max-width: 768px){
 
+  
+    .texto{
+
+        p{
+            text-align: justify;
+        }
+    }
+
+    .texto_parallax_2 {
+        color: rgb(251, 229, 29);
+        
+     }
+
+    .btn-info{
+        margin-left: 30px;
+        background-color:  rgb(251, 229, 29);
+    }
+
+    .principal{
+        height: 700px;
+        p{
+            text-align: center;
+        }  
+    }
+
+
+    .cursos{
+        
+
+        p{
+            text-align: center;
+        }
+    }
+
+    .card{
+        height: 700px;
+    }
+
+    
+
+    
+    
+    
 }
 
 @media only screen and (max-width: 576px){
     
+
+    .parallax{
+        height: 800px;
+        
+    }
 
     .navbar-collapse{
         z-index: 100;
@@ -14,7 +125,23 @@
     }
 
     .btn-info{
-        margin-left: 100px;
+        margin-left: 120px;
+    }
+
+    .texto{
+        p{
+            text-align: center;
+            font-size: 20px;
+            padding-right: 25px;
+        }
+    }
+
+    .principal{
+        height: 1500px;
+    }
+
+    .cursos{
+        height: 1500px;
     }
 
     .carousel-items{
@@ -67,8 +194,9 @@
     }
 
     .cursos{
-        height: 3200px;
+        height: 3300px;
         max-width: 100%;
+        
         
     }
 
@@ -82,7 +210,7 @@
     .card{
         height: 800px;
     }
-
+   
     .row-footer{
         flex-direction: column;
         height: 120px;

@@ -1,12 +1,15 @@
 
 .cursos{
-    height: 650px;
-    
+    height: 670px;
+       
 }
 
-.container{
+.row-cursos{
+    display: flex;
+    border: 2px solid blue;
     max-width: 100%;
 }
+
 
  .btn-primary{
     background: rgb(0,102,241);
@@ -18,11 +21,19 @@
     }
 }
 
+
+.card{
+    img{
+        border-radius: 8px;
+       }
+}
+
 .card-body {
    text-align: center;
    p{
     text-align: justify;
    }
+   
 }
 
 

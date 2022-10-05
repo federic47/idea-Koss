@@ -66,16 +66,20 @@ header img {
 }
 
 .texto_parallax_1 {
-  color: #00f059;
+  color: #e9f1f1;
+  font-size: 45px;
 }
 
 .texto_parallax_2 {
-  color: white;
+  color: #4bf6fb;
+  font-size: 40px;
 }
 
+.btn-info {
+  margin-left: 150px;
+}
 .btn-info:hover {
-  background: rgb(82, 241, 0);
-  background: linear-gradient(90deg, rgb(82, 241, 0) 0%, rgb(45, 162, 2) 100%);
+  background: rgb(249, 249, 249);
 }
 
 .subtitulo {
@@ -99,6 +103,9 @@ header img {
   background: rgb(212, 216, 221);
   background: linear-gradient(90deg, rgb(212, 216, 221) 0%, rgba(108, 99, 99, 0.9783263647) 100%);
 }
+.principal p {
+  text-align: center;
+}
 
 .principal_caja {
   align-items: center;
@@ -109,12 +116,17 @@ header img {
   width: 200px;
   height: 200px;
 }
-
-.cursos {
-  height: 650px;
+.principal_caja p {
+  padding: 10px;
 }
 
-.container {
+.cursos {
+  height: 670px;
+}
+
+.row-cursos {
+  display: flex;
+  border: 2px solid blue;
   max-width: 100%;
 }
 
@@ -126,6 +138,10 @@ header img {
 .btn-primary:hover {
   background: rgb(82, 241, 0);
   background: linear-gradient(90deg, rgb(82, 241, 0) 0%, rgb(45, 162, 2) 100%);
+}
+
+.card img {
+  border-radius: 8px;
 }
 
 .card-body {
@@ -181,7 +197,7 @@ header img {
 
 .btn-success {
   width: 400px;
-  margin-left: 400px;
+  margin-left: 350px;
 }
 .btn-success:hover {
   background-color: red;
@@ -265,6 +281,7 @@ header img {
 }
 
 .descuento2 {
+  width: 700px;
   margin-top: 40px;
   display: flex;
   flex-direction: column;
@@ -319,8 +336,10 @@ header img {
 
 .somos2 {
   background-image: url(../images/somos2.png);
+  background-repeat: no-repeat;
   border: none;
   height: 400px;
+  border: 2px solid red;
 }
 
 .somos3 {
@@ -340,7 +359,65 @@ header img {
   padding: 25px;
 }
 
+@media only screen and (max-width: 1200px) {
+  .cursos {
+    height: 670px;
+  }
+  .card {
+    height: 650px;
+  }
+  .tarjetas p {
+    padding-right: 8px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .navbar-collapse {
+    font-size: 17px;
+  }
+  .texto p {
+    text-align: justify;
+  }
+  .texto_parallax_1 {
+    font-size: 30px;
+  }
+  .texto_parallax_2 {
+    font-size: 30px;
+  }
+  .btn-info {
+    margin-left: 80px;
+  }
+  .principal {
+    height: 600px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .texto p {
+    text-align: justify;
+  }
+  .texto_parallax_2 {
+    color: rgb(251, 229, 29);
+  }
+  .btn-info {
+    margin-left: 30px;
+    background-color: rgb(251, 229, 29);
+  }
+  .principal {
+    height: 700px;
+  }
+  .principal p {
+    text-align: center;
+  }
+  .cursos p {
+    text-align: center;
+  }
+  .card {
+    height: 700px;
+  }
+}
 @media only screen and (max-width: 576px) {
+  .parallax {
+    height: 800px;
+  }
   .navbar-collapse {
     z-index: 100;
   }
@@ -348,7 +425,18 @@ header img {
     margin-right: 40px;
   }
   .btn-info {
-    margin-left: 100px;
+    margin-left: 120px;
+  }
+  .texto p {
+    text-align: center;
+    font-size: 20px;
+    padding-right: 25px;
+  }
+  .principal {
+    height: 1500px;
+  }
+  .cursos {
+    height: 1500px;
   }
   .carousel-items p {
     font-size: 18px;
@@ -381,7 +469,7 @@ header img {
     height: 400px;
   }
   .cursos {
-    height: 3200px;
+    height: 3300px;
     max-width: 100%;
   }
   .tarjetas {
