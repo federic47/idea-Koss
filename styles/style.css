@@ -141,9 +141,6 @@ header img {
 .card-body {
   text-align: center;
 }
-.card-body p {
-  text-align: justify;
-}
 
 .container-footer {
   max-width: 100%;
@@ -191,7 +188,7 @@ header img {
 
 .btn-success {
   width: 400px;
-  margin-left: 350px;
+  margin-left: 450px;
 }
 .btn-success:hover {
   background-color: red;
@@ -218,9 +215,7 @@ header img {
   justify-content: space-evenly;
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 20px;
-  width: 500px;
-  height: 500px;
+  height: 440px;
   padding: 25px;
 }
 .texto_parallax_formulario p {
@@ -353,40 +348,9 @@ header img {
   padding: 25px;
 }
 
-@media only screen and (max-width: 1200px) {
-  .cursos {
-    height: 800px;
-  }
-  .tarjetas p {
-    padding-right: 8px;
-  }
-}
-@media only screen and (max-width: 992px) {
-  .navbar-collapse {
-    font-size: 17px;
-  }
-  .texto p {
-    text-align: justify;
-  }
-  .texto_parallax_1 {
-    font-size: 30px;
-  }
-  .texto_parallax_2 {
-    font-size: 30px;
-  }
-  .btn-info {
-    margin-left: 80px;
-  }
-  .principal {
-    height: 600px;
-  }
-  .cursos {
-    height: 750px;
-  }
-}
 @media only screen and (max-width: 768px) {
-  .texto p {
-    text-align: justify;
+  .parallax {
+    height: 500px;
   }
   .texto_parallax_2 {
     color: rgb(251, 229, 29);
@@ -394,6 +358,9 @@ header img {
   .btn-info {
     margin-left: 30px;
     background-color: rgb(251, 229, 29);
+  }
+  .btn-success {
+    margin-left: 150px;
   }
   .principal {
     height: 700px;
@@ -405,7 +372,10 @@ header img {
     text-align: center;
   }
   .card {
-    height: 700px;
+    width: 250px;
+  }
+  .parallax_formulario {
+    height: 800px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -499,6 +469,67 @@ header img {
   }
   .btn-success {
     margin-left: 80px;
+  }
+}
+@media only screen and (max-width: 486px) {
+  .btn-success {
+    width: 200px;
+    margin-left: 150px;
+  }
+  .texto h1 {
+    font-size: 15px;
+  }
+  .card {
+    height: 450px;
+  }
+  .btn-info {
+    margin-left: 80px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .navbar-toggler {
+    margin-bottom: 25px;
+  }
+  .carousel-items h1 {
+    font-size: 20px;
+  }
+  .btn-success {
+    width: 200px;
+    margin-left: 50px;
+  }
+  .texto_imagen img {
+    width: 320px;
+  }
+  .parallax {
+    height: 800px;
+  }
+  .btn-info {
+    margin-left: -15px;
+  }
+  .subtitulo {
+    height: 80px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  .principal {
+    height: 1800px;
+  }
+  .principal_caja {
+    height: 600px;
+  }
+  .tarjetas {
+    height: 700px;
+  }
+  .cursos {
+    height: 1500px;
+  }
+  .card {
+    height: 690px;
+    width: 280px;
+  }
+  .tarjetas {
+    margin-left: 10px;
   }
 }
 
