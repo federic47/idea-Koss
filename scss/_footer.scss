@@ -10,8 +10,13 @@
     align-items: center;
     color: white;
     height: 70px;
+    
    
     background: rgb(27,98,172);
     background: linear-gradient(90deg, rgba(27,98,172,1) 2%, rgba(110,76,203,0.9363095580028886) 100%, rgba(250,250,252,1) 100%);
     
+    a{
+        text-decoration: none;
+        color: white;
+    }
  }

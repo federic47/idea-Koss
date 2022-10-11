@@ -6,8 +6,14 @@
     }
 
 
+    .texto_parallax_1 {
+        color: white;
+        font-size: 30px;
+        
+     }
     .texto_parallax_2 {
         color: rgb(251, 229, 29);
+        font-size: 35px;
         
      }
 
@@ -35,10 +41,10 @@
         }
     }
 
+    
+    
 
-    .card{
-        width: 250px;
-    }
+    
 
     .texto_parallax_formulario{
         color: white;
@@ -60,10 +66,32 @@
         }
         
      }
+
+     .duda{
+        height: 620px;
+     }
    
 
     .parallax_formulario{
         height: 600px;
+    }
+
+    .descuento{
+        height: 900px;
+    }
+
+    .descuento1{
+        margin-top: 30px;
+    }
+
+    .descuento2{
+        width: 350px;
+        height: 650px;
+    }
+
+    .card{
+        height: 700px;
+        
     }
 
    
@@ -110,12 +138,21 @@
         }
     }
 
-    .descuento{
+    .duda{
         height: 1250px;
+     }
+
+    .descuento{
+        height: 1300px;
     }
 
     .descuento1{
         margin-top: 30px;
+    }
+
+    .descuento2{
+        width: 550px;
+        margin-left: 10px;
     }
 
 
@@ -124,10 +161,19 @@
     }
 
 
+    .parallax_formulario{
+        height: 1300px;
+    }
 
+    .texto_parallax_formulario {
+        margin-bottom: 150px;
+       p{
+        text-align: center;
+       }
+    }
 
     .formulario-parallax{
-        margin-top: 25px;
+        margin-bottom: 80px;
         border-radius: 8px;
         height: 500px;
     }
@@ -157,10 +203,12 @@
         justify-content: space-evenly;
         height: 800px;
         
+        
     }
 
     .card{
         height: 800px;
+        
     }
    
     .row-footer{
@@ -224,17 +272,27 @@
 @media only screen and (max-width: 486px){
     
 
+    .texto_parallax_1 {
+        color: white;
+        font-size: 30px;
+        
+     }
+    .texto_parallax_2 {
+        font-size: 30px;
+        
+     }
+
     .btn-success{
         width: 200px;
         margin-left: 150px;
     
        }
    
-    .texto{
-        h1{
-            font-size: 15px;
-        }
-    }
+   // .texto{
+  //      h1{
+  //          font-size: 15px;
+  //      }
+  //  }
 
     .card{
         height: 450px;
@@ -243,7 +301,22 @@
         
     .btn-info {
         margin-left: 80px;
+            }
+
+     
+    .descuento{
+        height: 1400px;
+    }           
+
+    .descuento2 {
+        width: 450px;
         }
+
+    .tarjetas{
+        height: 750px;
+    
+    }
+    
 
 }
 
@@ -313,6 +386,48 @@
     .tarjetas{
         margin-left: 10px;
     }
+
+    .texto_parallax_formulario h1 {
+        font-size: 30px;
+        text-align: center;
+
+
+    }
+
+    .texto_parallax_formulario p {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    .descuento{
+        height: 1750px;
+    }
+
+    .descuento2 {
+        width: 300px;
+        
+    }
+
+    .somos{
+        height: 1400px;
+    }
+
+    .somos1 h2{
+        margin-top: 45px;
+    }
+
+    .somos2{
+        height: 300px;
+        width: 300px;
+        margin-top: 10px;
+    }
+
+    .somos3{
+        height: 300px;
+        width: 300px;
+        margin-top: 10px;
+    }
+
 
 
 
