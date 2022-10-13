@@ -96,6 +96,11 @@
         }
     }
 
+    .tarjetas{
+        height: 700px;
+    }
+
+ 
     
     
 
@@ -147,6 +152,14 @@
     .card{
         height: 700px;
         
+    }
+
+    .somos{
+        height: 850px;
+    }
+
+    .somos1{
+        margin-top: 20px;
     }
 
    
@@ -212,7 +225,7 @@
 
 
     .somos{
-        height: 1500px;
+        height: 1550px;
     }
 
 
@@ -256,13 +269,13 @@
     .tarjetas{
         flex-direction: column;
         justify-content: space-evenly;
-        height: 800px;
+        height: 850px;
         
         
     }
 
     .card{
-        height: 800px;
+        height: 820px;
         
     }
    

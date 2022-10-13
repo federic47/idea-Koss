@@ -200,7 +200,7 @@ header img {
 
 .btn-success {
   width: 400px;
-  margin-left: 350px;
+  margin-left: 450px;
 }
 .btn-success:hover {
   background-color: red;
@@ -528,6 +528,9 @@ select {
   .cursos p {
     text-align: center;
   }
+  .tarjetas {
+    height: 700px;
+  }
   .texto_parallax_formulario {
     color: white;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -562,6 +565,12 @@ select {
   }
   .card {
     height: 700px;
+  }
+  .somos {
+    height: 850px;
+  }
+  .somos1 {
+    margin-top: 20px;
   }
 }
 @media only screen and (max-width: 576px) {
@@ -602,7 +611,7 @@ select {
     margin-left: 10px;
   }
   .somos {
-    height: 1500px;
+    height: 1550px;
   }
   .parallax_formulario {
     height: 1300px;
@@ -631,10 +640,10 @@ select {
   .tarjetas {
     flex-direction: column;
     justify-content: space-evenly;
-    height: 800px;
+    height: 850px;
   }
   .card {
-    height: 800px;
+    height: 820px;
   }
   .row-footer {
     flex-direction: column;
