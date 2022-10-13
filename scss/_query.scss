@@ -1,3 +1,58 @@
+@media only screen and (max-width: 992px){
+    .navbar-collapse{
+        font-size: 17px;
+    }
+
+    .texto_parallax_1 {
+        font-size: 40px;
+    }
+
+    .texto_parallax_2 {
+        font-size: 33px;
+    }
+
+    .btn-info {
+        margin-left: 100px;
+    }
+
+    .principal{
+        height: 600px;
+    }
+
+    .tarjetas{
+        height: 800px;
+    }
+    .card{
+        height: 800px;
+    }
+
+    .btn-success {
+        margin-left: 300px;
+    }
+
+    .duda{
+        height: 650px;
+    }
+
+    .descuento{
+        height: 680px;
+    }
+    .descuento1{
+        margin-top: 30px;
+    }
+
+    .descuento2{
+        width: 480px;
+    }
+
+    
+
+
+}
+
+
+
+
 @media only screen and (max-width: 768px){
 
     
@@ -288,11 +343,7 @@
     
        }
    
-   // .texto{
-  //      h1{
-  //          font-size: 15px;
-  //      }
-  //  }
+
 
     .card{
         height: 450px;
