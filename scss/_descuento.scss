@@ -52,11 +52,15 @@
     border: none;
     &:hover{
         background-color: green;
-        color: white;
+        
     }
 
     a{
         text-decoration: none;
-        color: black
+        color: black;
+        &:hover{
+            color: white;
+        }
+        
     }
 }

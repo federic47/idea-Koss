@@ -408,11 +408,13 @@ select {
 }
 .btn-warning:hover {
   background-color: green;
-  color: white;
 }
 .btn-warning a {
   text-decoration: none;
   color: black;
+}
+.btn-warning a:hover {
+  color: white;
 }
 
 .somos {
