@@ -5,6 +5,12 @@
     
 }
 
+.form-control:focus {
+    outline:  none;
+    box-shadow: none;
+
+}
+
 .descuento1{
     display: flex;
     
@@ -52,6 +58,8 @@
     border: none;
     &:hover{
         background-color: green;
+        outline: none !important;
+        box-shadow: none !important;
         
     }
 

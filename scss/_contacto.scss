@@ -53,6 +53,8 @@
  .btn-light{
     text-decoration: none;
     background-color: rgb(10, 244, 127);
+    outline: none !important;
+    box-shadow: none !important;
     a{
         color: black;
         text-transform:uppercase;

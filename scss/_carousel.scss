@@ -39,8 +39,11 @@
     
     width: 400px;
     margin-left: 450px;
+    outline: none !important;
+    box-shadow: none !important;
     &:hover{
     background-color:red ;
+ 
     }
     a{
         text-decoration: none;

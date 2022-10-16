@@ -77,6 +77,8 @@ header img {
 
 .btn-info {
   margin-left: 150px;
+  outline: none !important;
+  box-shadow: none !important;
 }
 .btn-info:hover {
   background: rgb(249, 249, 249);
@@ -129,6 +131,8 @@ header img {
   background: rgb(0, 102, 241);
   background: linear-gradient(90deg, rgb(0, 102, 241) 0%, rgb(19, 53, 167) 95%);
   border: none;
+  outline: none !important;
+  box-shadow: none !important;
 }
 .btn-primary:hover {
   background: rgb(82, 241, 0);
@@ -201,6 +205,8 @@ header img {
 .btn-success {
   width: 400px;
   margin-left: 450px;
+  outline: none !important;
+  box-shadow: none !important;
 }
 .btn-success:hover {
   background-color: red;
@@ -256,6 +262,8 @@ select {
 .btn-light {
   text-decoration: none;
   background-color: rgb(10, 244, 127);
+  outline: none !important;
+  box-shadow: none !important;
 }
 .btn-light a {
   color: black;
@@ -369,6 +377,11 @@ select {
   background: linear-gradient(90deg, rgb(82, 241, 0) 0%, rgb(47, 53, 110) 0%, rgb(30, 32, 36) 100%);
 }
 
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 .descuento1 {
   display: flex;
   flex-direction: column;
@@ -408,6 +421,8 @@ select {
 }
 .btn-warning:hover {
   background-color: green;
+  outline: none !important;
+  box-shadow: none !important;
 }
 .btn-warning a {
   text-decoration: none;
@@ -501,6 +516,13 @@ select {
   }
 }
 @media only screen and (max-width: 768px) {
+  .btn:focus, a:focus {
+    outline: none;
+  }
+  .navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none;
+  }
   .parallax {
     height: 500px;
   }

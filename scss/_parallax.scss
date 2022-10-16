@@ -45,10 +45,15 @@ $blanco : rgb(49, 238, 238);
     font-size: 40px;
  }
 
+
  .btn-info{
    margin-left: 150px;
+   outline: none !important;
+   box-shadow: none !important;
    &:hover{
       background: rgb(249, 249, 249);
+
+      
    }
 }
 

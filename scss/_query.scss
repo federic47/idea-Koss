@@ -54,8 +54,20 @@
 
 
 @media only screen and (max-width: 768px){
-
     
+    .btn:focus, a:focus
+    {
+         outline: none;
+    }
+
+
+    .navbar-toggler:focus
+    {
+         outline: none !important;
+         box-shadow: none;
+    }
+   
+
     .parallax{
         height: 500px;
     }
