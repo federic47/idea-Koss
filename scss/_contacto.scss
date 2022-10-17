@@ -89,6 +89,8 @@
  .btn-1{
     color: white;
     background-color: coral;
+    outline: none !important;
+    box-shadow: none !important;
     &:hover{
         background-color: red;
         color: white;
@@ -115,6 +117,8 @@
  .btn-2{
     color: white;
     background: linear-gradient(90deg, rgba(82,241,0,1) 0%, rgba(82,240,0,1) 0%, rgba(147,195,47,1) 100%);
+    outline: none !important;
+    box-shadow: none !important;
     &:hover{
         background: linear-gradient(90deg, rgba(82,241,0,1) 0%, rgba(66,180,7,1) 0%, rgba(41,110,8,1) 100%);
         color: white;
@@ -140,6 +144,8 @@
  .btn-3{
     color: white;
     background: linear-gradient(90deg, rgba(0,241,226,1) 0%, rgba(99,196,232,1) 0%, rgba(8,106,110,1) 100%);
+    outline: none !important;
+    box-shadow: none !important;
     &:hover{
         background: linear-gradient(90deg, rgba(5,205,221,1) 0%, rgba(23,156,148,1) 0%, rgba(8,104,110,1) 100%);
         color: white;
@@ -165,6 +171,8 @@
  .btn-4{
     color: white;
     background: linear-gradient(90deg, rgba(11,0,241,1) 0%, rgba(99,106,232,1) 0%, rgba(21,8,110,1) 100%);
+    outline: none !important;
+    box-shadow: none !important;
     &:hover{
         background: linear-gradient(90deg, rgba(19,15,93,1) 0%, rgba(38,23,156,1) 0%, rgba(21,8,110,1) 100%);
         color: white;
